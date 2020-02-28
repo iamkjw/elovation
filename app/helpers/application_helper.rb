@@ -11,6 +11,6 @@ module ApplicationHelper
   end
 
   def brand_title
-    ENV["Verathon Games"] || "Verathon Games"
+    ENV["Verathon"] || "Verathon"
   end
 end
